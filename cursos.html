@@ -98,56 +98,64 @@
         <aside class="col-md-3 mb-4">
           <h5 class="fw-bold mb-3">Filtrar por</h5>
 
-          <!-- Tipo de curso -->
+          <!-- Categoría -->
           <div class="mb-3">
-            <label class="form-label">Tipo de curso</label>
-            <select class="form-select">
-              <option selected>Todos</option>
-              <option>Online</option>
-              <option>Presencial</option>
+            <label class="form-label">Categoría</label>
+            <select class="form-select" id="filtroCategoria">
+              <option value="todos" selected>Todos</option>
+              <option value="Primaria">Primaria</option>
+              <option value="Secundaria">Secundaria</option>
+              <option value="Técnico">Técnico</option>
             </select>
           </div>
 
           <!-- Especialidad -->
           <div class="mb-3">
             <label class="form-label">Especialidad</label>
-            <select class="form-select">
-              <option selected>Todas</option>
-              <option>Programación</option>
-              <option>Diseño</option>
-              <option>Marketing</option>
+            <select class="form-select" id="filtroEspecialidad">
+              <option value="todas" selected>Todas</option>
+              <option value="Matemáticas">Matemáticas</option>
+              <option value="Comunicación">Comunicación</option>
+              <option value="Ciencias">Ciencias</option>
+              <option value="Historia">Historia</option>
+              <option value="Idiomas">Idiomas</option>
+              <option value="Literatura">Literatura</option>
+              <option value="Diseño">Diseño</option>
+              <option value="Ofimática">Ofimática</option>
+              <option value="Tecnología">Tecnología</option>
             </select>
           </div>
 
-          <!-- Certificación -->
+          <!-- Certificado -->
           <div class="mb-3">
             <label class="form-label">Certificado</label>
-            <select class="form-select">
-              <option selected>Todos</option>
-              <option>Con certificado</option>
-              <option>Sin certificado</option>
+            <select class="form-select" id="filtroCertificado">
+              <option value="todos" selected>Todos</option>
+              <option value="con">Con certificado</option>
+              <option value="sin">Sin certificado</option>
             </select>
           </div>
 
-          <!-- Nivel -->
+          <!-- Idioma -->
           <div class="mb-3">
-            <label class="form-label">Nivel</label>
-            <select class="form-select">
-              <option selected>Todos</option>
-              <option>Básico</option>
-              <option>Intermedio</option>
-              <option>Avanzado</option>
+            <label class="form-label">Idioma</label>
+            <select class="form-select" id="filtroIdioma">
+              <option value="todos" selected>Todos</option>
+              <option value="Español">Español</option>
+              <option value="Inglés">Inglés</option>
+              <option value="Portugués">Portugués</option>
+              <option value="Francés">Francés</option>
             </select>
           </div>
 
           <!-- Duración -->
           <div class="mb-3">
             <label class="form-label">Duración</label>
-            <select class="form-select">
-              <option selected>Todas</option>
-              <option>Menos de 5h</option>
-              <option>5-10h</option>
-              <option>Más de 10h</option>
+            <select class="form-select" id="filtroDuracion">
+              <option value="todas" selected>Todas</option>
+              <option value="menos5">Menos de 5h</option>
+              <option value="5a10">5-10h</option>
+              <option value="mas10">Más de 10h</option>
             </select>
           </div>
         </aside>

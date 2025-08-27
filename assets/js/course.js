@@ -9,7 +9,7 @@ const cursos = [
     idioma: "Español",
     descripcion:
       "Introducción a las operaciones básicas para niños de primaria.",
-    imagen: "assets/img/cursos/curso1.jpg",
+    imagen: "assets/img/primaria/img-primaria.png",
     duracion: 10,
   },
   {
@@ -20,7 +20,7 @@ const cursos = [
     certificado: false,
     idioma: "Inglés",
     descripcion: "Desarrollo de la lectura y escritura desde edad temprana.",
-    imagen: "assets/img/cursos/curso2.jpg",
+    imagen: "assets/img/primaria/img-primaria.png",
     duracion: 8,
   },
   {
@@ -31,7 +31,7 @@ const cursos = [
     certificado: true,
     idioma: "Español",
     descripcion: "Conoce el mundo natural a través de experimentos divertidos.",
-    imagen: "assets/img/cursos/curso3.jpg",
+    imagen: "assets/img/primaria/img-primaria.png",
     duracion: 12,
   },
   {
@@ -42,7 +42,7 @@ const cursos = [
     certificado: false,
     idioma: "Español",
     descripcion: "Descubre los hechos históricos más importantes del país.",
-    imagen: "assets/img/cursos/curso4.jpg",
+    imagen: "assets/img/primaria/img-primaria.png",
     duracion: 9,
   },
   {
@@ -52,8 +52,8 @@ const cursos = [
     especialidad: "Idiomas",
     certificado: true,
     idioma: "Inglés",
-    descripcion: "Aprende inglés con canciones y juegos divertidos.",
-    imagen: "assets/img/cursos/curso5.jpg",
+    descripcion: "Aprende inglés con canciones y juegos divertidos, fáciles y entretenidos para todos.",
+    imagen: "assets/img/primaria/img-primaria.png",
     duracion: 15,
   },
 
@@ -66,7 +66,7 @@ const cursos = [
     certificado: true,
     idioma: "Español",
     descripcion: "Resuelve ecuaciones, desigualdades y sistemas.",
-    imagen: "assets/img/cursos/curso6.jpg",
+    imagen: "assets/img/secundaria/imagen-secundaria.jpeg",
     duracion: 20,
   },
   {
@@ -77,7 +77,7 @@ const cursos = [
     certificado: true,
     idioma: "Portugués",
     descripcion: "Explicación práctica de leyes físicas con actividades.",
-    imagen: "assets/img/cursos/curso7.jpg",
+    imagen: "assets/img/secundaria/imagen-secundaria.jpeg",
     duracion: 18,
   },
   {
@@ -88,7 +88,7 @@ const cursos = [
     certificado: false,
     idioma: "Español",
     descripcion: "Lee y analiza obras clásicas de la literatura.",
-    imagen: "assets/img/cursos/curso8.jpg",
+    imagen: "assets/img/secundaria/imagen-secundaria.jpeg",
     duracion: 25,
   },
   {
@@ -100,7 +100,7 @@ const cursos = [
     idioma: "Español",
     descripcion:
       "Introducción a la química orgánica y sus compuestos principales.",
-    imagen: "assets/img/cursos/curso11.jpg",
+    imagen: "assets/img/secundaria/imagen-secundaria.jpeg",
     duracion: 22,
   },
   {
@@ -112,19 +112,19 @@ const cursos = [
     idioma: "Español",
     descripcion:
       "Análisis de eventos históricos desde el siglo XVIII en adelante.",
-    imagen: "assets/img/cursos/curso12.jpg",
+    imagen: "assets/img/secundaria/imagen-secundaria.jpeg",
     duracion: 20,
   },
   {
     id: 16,
-    titulo: "Matemáticas para Secundaria I",
+    titulo: "Matemáticas - Secundaria I",
     categoria: "Secundaria",
     especialidad: "Matemáticas",
     certificado: false,
     idioma: "Español",
     descripcion:
       "Funciones, gráficos y álgebra básica para estudiantes de secundaria.",
-    imagen: "assets/img/cursos/curso16.jpg",
+    imagen: "assets/img/secundaria/imagen-secundaria.jpeg",
     duracion: 15,
   },
   {
@@ -135,7 +135,7 @@ const cursos = [
     certificado: true,
     idioma: "Español",
     descripcion: "Estudio de la biología humana y ecosistemas.",
-    imagen: "assets/img/cursos/curso19.jpg",
+    imagen: "assets/img/secundaria/imagen-secundaria.jpeg",
     duracion: 20,
   },
   {
@@ -146,7 +146,7 @@ const cursos = [
     certificado: false,
     idioma: "Español",
     descripcion: "Mejora tus habilidades de escritura y gramática en español.",
-    imagen: "assets/img/cursos/curso20.jpg",
+    imagen: "assets/img/secundaria/imagen-secundaria.jpeg",
     duracion: 12,
   },
   {
@@ -157,8 +157,8 @@ const cursos = [
     certificado: true,
     idioma: "Inglés",
     descripcion:
-      "Consolida tus conocimientos y habilidades comunicativas en inglés.",
-    imagen: "assets/img/cursos/curso23.jpg",
+      "Consolida tus conocimientos y habilidades comunicativas en inglés, de manera efectiva.",
+    imagen: "assets/img/secundaria/imagen-secundaria.jpeg",
     duracion: 18,
   },
   {
@@ -169,7 +169,7 @@ const cursos = [
     certificado: true,
     idioma: "Español",
     descripcion: "Álgebra avanzada y trigonometría para estudiantes.",
-    imagen: "assets/img/cursos/curso25.jpg",
+    imagen: "assets/img/secundaria/imagen-secundaria.jpeg",
     duracion: 20,
   },
   {
@@ -180,7 +180,7 @@ const cursos = [
     certificado: false,
     idioma: "Español",
     descripcion: "Conceptos y técnicas básicas del dibujo técnico.",
-    imagen: "assets/img/cursos/curso28.jpg",
+    imagen: "assets/img/secundaria/imagen-secundaria.jpeg",
     duracion: 14,
   },
   {
@@ -191,8 +191,8 @@ const cursos = [
     certificado: true,
     idioma: "Español",
     descripcion:
-      "Mejora tus habilidades para hablar en público y comunicarte eficazmente.",
-    imagen: "assets/img/cursos/curso29.jpg",
+      "Mejora tus habilidades para hablar en público y comunicarte eficazmente, con confianza y claridad.",
+    imagen: "assets/img/secundaria/imagen-secundaria.jpeg",
     duracion: 10,
   },
 
@@ -205,18 +205,18 @@ const cursos = [
     certificado: true,
     idioma: "Español",
     descripcion: "Aprende funciones, fórmulas y tablas dinámicas.",
-    imagen: "assets/img/cursos/curso9.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 15,
   },
   {
     id: 10,
-    titulo: "Diseño UX/UI",
+    titulo: "Diseño y Modelación UX/UI con Figma",
     categoria: "Técnico",
     especialidad: "Diseño",
     certificado: true,
     idioma: "Inglés",
     descripcion: "Aprende prototipado moderno con Figma paso a paso.",
-    imagen: "assets/img/cursos/curso10.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 18,
   },
   {
@@ -228,7 +228,7 @@ const cursos = [
     idioma: "Inglés",
     descripcion:
       "Mejora tu inglés para reuniones y presentaciones empresariales.",
-    imagen: "assets/img/cursos/curso13.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 20,
   },
   {
@@ -239,18 +239,18 @@ const cursos = [
     certificado: true,
     idioma: "Español",
     descripcion: "Conceptos básicos de programación usando Python.",
-    imagen: "assets/img/cursos/curso14.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 25,
   },
   {
     id: 15,
-    titulo: "Diseño Gráfico con Photoshop",
+    titulo: "Diseño Gráfico - Photoshop",
     categoria: "Técnico",
     especialidad: "Diseño",
     certificado: true,
     idioma: "Español",
     descripcion: "Aprende herramientas básicas y avanzadas de Photoshop.",
-    imagen: "assets/img/cursos/curso15.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 20,
   },
   {
@@ -261,7 +261,7 @@ const cursos = [
     certificado: true,
     idioma: "Español",
     descripcion: "Aprende Word, Excel, PowerPoint y Outlook en un solo curso.",
-    imagen: "assets/img/cursos/curso17.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 22,
   },
   {
@@ -272,7 +272,7 @@ const cursos = [
     certificado: true,
     idioma: "Inglés",
     descripcion: "Diseña prototipos complejos y colaborativos con Figma.",
-    imagen: "assets/img/cursos/curso18.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 20,
   },
   {
@@ -283,7 +283,7 @@ const cursos = [
     certificado: true,
     idioma: "Francés",
     descripcion: "Aprende francés desde cero con ejercicios prácticos.",
-    imagen: "assets/img/cursos/curso21.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 15,
   },
   {
@@ -295,7 +295,7 @@ const cursos = [
     idioma: "Español",
     descripcion:
       "Fundamentos de electricidad y electrónica para principiantes.",
-    imagen: "assets/img/cursos/curso22.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 18,
   },
   {
@@ -306,7 +306,7 @@ const cursos = [
     certificado: true,
     idioma: "Español",
     descripcion: "Aprende a crear planos y dibujos técnicos con Autocad.",
-    imagen: "assets/img/cursos/curso24.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 20,
   },
   {
@@ -317,7 +317,7 @@ const cursos = [
     certificado: false,
     idioma: "Español",
     descripcion: "Conoce las herramientas básicas de Word y Excel.",
-    imagen: "assets/img/cursos/curso26.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 10,
   },
   {
@@ -329,22 +329,23 @@ const cursos = [
     idioma: "Español",
     descripcion:
       "Introducción a HTML, CSS y JavaScript para crear páginas web.",
-    imagen: "assets/img/cursos/curso27.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 25,
   },
   {
     id: 30,
-    titulo: "Photoshop para Redes Sociales",
+    titulo: "Photoshop",
     categoria: "Técnico",
     especialidad: "Diseño",
     certificado: false,
     idioma: "Español",
     descripcion: "Aprende a crear imágenes atractivas para redes sociales.",
-    imagen: "assets/img/cursos/curso30.jpg",
+    imagen: "assets/img/tecnico/imagen-tecnico.png",
     duracion: 12,
   },
 ];
 
+//  contenido de los cursos
 const contenedorCursos = document.getElementById("contenedorCursos");
 
 cursos.forEach((curso) => {
@@ -352,18 +353,97 @@ cursos.forEach((curso) => {
   card.className = "col-md-6 col-lg-4 mb-4";
 
   card.innerHTML = `
+  <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+    <div class="position-relative overflow-hidden" style="height: 180px;">
+      <img src="${curso.imagen}" alt="Curso: ${curso.titulo}" class="card-img-top object-fit-cover w-100 h-100" style="transition: transform 0.3s ease;">
+      <div class="position-absolute top-0 end-0 m-2 bg-primary text-white px-2 py-1 rounded small">
+        ${curso.categoria}
+      </div>
+    </div>
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title fw-semibold mb-2">${curso.titulo}</h5>
+      <p class="card-text text-secondary flex-grow-1">${curso.descripcion}</p>
+      <div class="d-flex justify-content-between align-items-center mt-3">
+        <small class="text-muted">
+          <i class="bi bi-clock"></i> ${curso.duracion}h
+        </small>
+        <a href="#" class="btn btn-sm btn-primary">Ver curso</a>
+      </div>
+    </div>
+  </div>
+`;
+
+  contenedorCursos.appendChild(card);
+});
+
+//  filter
+
+function mostrarCursos(lista) {
+  const contenedor = document.getElementById("contenedorCursos");
+  contenedor.innerHTML = "";
+
+  if (lista.length === 0) {
+    contenedor.innerHTML = "<p>No hay cursos que coincidan con el filtro.</p>";
+    return;
+  }
+
+  lista.forEach((curso) => {
+    const card = document.createElement("div");
+    card.className = "col-md-6 col-lg-4 mb-4";
+    card.innerHTML = `
       <div class="card h-100 shadow-sm">
-        <img src="${curso.imagen}" class="card-img-top" alt="Curso: ${curso.titulo}" />
+        <img src="${curso.imagen}" class="card-img-top" alt="${curso.titulo}" />
         <div class="card-body">
           <h5 class="card-title">${curso.titulo}</h5>
           <p class="card-text text-muted">
-            Nivel: ${curso.categoria} | Duración: ${curso.duracion}h
+            Categoría: ${curso.categoria} | Especialidad: ${curso.especialidad} | Duración: ${curso.duracion}h
           </p>
           <p class="card-text">${curso.descripcion}</p>
           <a href="#" class="btn btn-primary w-100">Ver curso</a>
         </div>
       </div>
     `;
+    contenedor.appendChild(card);
+  });
+}
 
-  contenedorCursos.appendChild(card);
+function aplicarFiltros() {
+  const categoria = document.getElementById("filtroCategoria").value;
+  const especialidad = document.getElementById("filtroEspecialidad").value;
+  const certificado = document.getElementById("filtroCertificado").value;
+  const idioma = document.getElementById("filtroIdioma").value;
+  const duracion = document.getElementById("filtroDuracion").value;
+
+  const filtrados = cursos.filter((curso) => {
+    if (categoria !== "todos" && curso.categoria !== categoria) return false;
+
+    if (especialidad !== "todas" && curso.especialidad !== especialidad)
+      return false;
+
+    if (certificado !== "todos") {
+      if (certificado === "con" && curso.certificado !== true) return false;
+      if (certificado === "sin" && curso.certificado !== false) return false;
+    }
+
+    if (idioma !== "todos" && curso.idioma !== idioma) return false;
+
+    if (duracion !== "todas") {
+      if (duracion === "menos5" && curso.duracion >= 5) return false;
+      if (duracion === "5a10" && (curso.duracion < 5 || curso.duracion > 10))
+        return false;
+      if (duracion === "mas10" && curso.duracion <= 10) return false;
+    }
+
+    return true;
+  });
+
+  mostrarCursos(filtrados);
+}
+
+// Agregar listeners a todos los selects
+document.querySelectorAll("select").forEach((select) => {
+  select.addEventListener("change", aplicarFiltros);
 });
+
+// Mostrar todos los cursos inicialmente
+mostrarCursos(cursos);
