@@ -91,6 +91,84 @@
       </div>
     </nav>
 
+    <!--  -->
+    <div class="container my-5">
+      <div class="row">
+        <!-- Filtro lateral -->
+        <aside class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Filtrar por</h5>
+
+          <!-- Tipo de curso -->
+          <div class="mb-3">
+            <label class="form-label">Tipo de curso</label>
+            <select class="form-select">
+              <option selected>Todos</option>
+              <option>Online</option>
+              <option>Presencial</option>
+            </select>
+          </div>
+
+          <!-- Especialidad -->
+          <div class="mb-3">
+            <label class="form-label">Especialidad</label>
+            <select class="form-select">
+              <option selected>Todas</option>
+              <option>Programación</option>
+              <option>Diseño</option>
+              <option>Marketing</option>
+            </select>
+          </div>
+
+          <!-- Certificación -->
+          <div class="mb-3">
+            <label class="form-label">Certificado</label>
+            <select class="form-select">
+              <option selected>Todos</option>
+              <option>Con certificado</option>
+              <option>Sin certificado</option>
+            </select>
+          </div>
+
+          <!-- Nivel -->
+          <div class="mb-3">
+            <label class="form-label">Nivel</label>
+            <select class="form-select">
+              <option selected>Todos</option>
+              <option>Básico</option>
+              <option>Intermedio</option>
+              <option>Avanzado</option>
+            </select>
+          </div>
+
+          <!-- Duración -->
+          <div class="mb-3">
+            <label class="form-label">Duración</label>
+            <select class="form-select">
+              <option selected>Todas</option>
+              <option>Menos de 5h</option>
+              <option>5-10h</option>
+              <option>Más de 10h</option>
+            </select>
+          </div>
+        </aside>
+
+        <!-- Contenido de cursos -->
+        <section
+          class="col-md-9"
+          style="
+            height: 800px;
+            overflow-y: scroll;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+          "
+        >
+          <div class="row" id="contenedorCursos"></div>
+        </section>
+      </div>
+    </div>
+
+    <!--  -->
+
     <!-- Footer -->
     <footer class="bg-dark text-white pt-5 pb-4">
       <div class="container">
@@ -242,5 +320,6 @@
         window.location.href = "index.html"; // Redirigir a inicio o login
       }
     </script>
+    <script src="assets/js/course.js"></script>
   </body>
 </html>
