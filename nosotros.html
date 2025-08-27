@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nosotros | MindPlay</title>
+    <link rel="icon" href="assets/img/logo.png" type="image/png" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img
+            src="assets/img/logo.png"
+            alt="Buhito"
+            width="40"
+            height="40"
+            class="me-2"
+          />
+          <span>
+            <span style="color: #1f2d5c">Mind</span
+            ><span style="color: #6c63ff">Play</span>
+          </span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex mx-auto w-50">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar cursos..."
+            />
+          </form>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item" id="navLogin">
+              <a class="nav-link" href="login.html">Iniciar sesión</a>
+            </li>
+            <li class="nav-item" id="navRegistro">
+              <a class="nav-link" href="registrarse.html">Registrarse</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contáctanos</a>
+            </li>
+            <li class="nav-item dropdown d-none" id="navUsuario">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="nombreUsuario"
+                >Usuario</a
+              >
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <a class="dropdown-item" href="cursos.html">Mis cursos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" onclick="cerrarSesion()"
+                    >Cerrar sesión</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Nosotros -->
+    <section class="bg-white">
+      <div class="container py-5">
+        <!-- Título principal -->
+        <h2
+          class="text-center fw-bold mb-4 pt-5"
+          style="color: var(--color-secundario); font-size: 2.5rem"
+        >
+          Descubre quiénes están detrás de <br />
+          <span>
+            <span style="color: #1f2d5c">Mind</span
+            ><span style="color: #6c63ff">Play</span>
+          </span>
+        </h2>
+
+        <!-- Introducción equipo -->
+        <p
+          class="text-center mx-auto mb-5"
+          style="
+            max-width: 700px;
+            font-size: 1.15rem;
+            color: var(--color-texto);
+            line-height: 1.6;
+          "
+        >
+          Somos un equipo de estudiantes apasionadas por crear un espacio
+          innovador que facilite el aprendizaje de los jóvenes con diversión y
+          práctica activa.
+        </p>
+
+        <!-- Nuestra Historia -->
+        <div class="row align-items-center mb-5 pt-5">
+          <div class="col-md-6 mb-4 mb-md-0" style="padding-left: 2rem">
+            <h3 class="fw-bold mb-3" style="color: var(--color-primario)">
+              Nuestra Historia
+            </h3>
+            <p style="color: var(--color-texto)">
+              Como estudiantes, notamos que gran parte de lo aprendido en clase
+              se olvidaba al llegar a casa. Esta realidad nos impulsó a crear
+              una solución.
+            </p>
+            <p style="color: var(--color-texto)">
+              Así nació <strong>MindPlay</strong>: una plataforma que convierte
+              la educación tradicional en una experiencia práctica, divertida y
+              memorable. Hoy, somos una comunidad que transforma el aprendizaje
+              en una vivencia significativa.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://img1.wsimg.com/cdnassets/transform/eebf8e20-da59-4ba5-87e8-53c40e9d972f/img-trust_center-main-feature_headline_mdl-compliance"
+              alt="Nuestra Historia"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+
+        <!-- El Origen de Todo -->
+        <div class="row align-items-center flex-md-row-reverse mb-5 pt-5">
+          <div class="col-md-6 mb-4 mb-md-0" style="padding-right: 5em">
+            <h3 class="fw-bold mb-3" style="color: var(--color-primario)">
+              El Origen de Todo
+            </h3>
+            <p style="color: var(--color-texto)">
+              Asistíamos a clases puntualmente, tomábamos apuntes y prestábamos
+              atención, pero al llegar a casa, la información no perduraba.
+            </p>
+            <p style="color: var(--color-texto)">
+              Al compartir esta frustración con otros compañeros, entendimos que
+              no estábamos solas. Fue entonces cuando decidimos romper con el
+              aprendizaje pasivo y crear una plataforma basada en
+              <strong>interacción, gamificación y desafíos</strong>.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="https://offload-latamclick-3zmqlbt9pkj45px4mf9ej1qji45bpg.uptily.com/xyz/gtytrtrfeds.png"
+              alt="El Origen"
+              style="width: 80%"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+
+        <!-- Misión, Visión, Valores -->
+        <div class="row text-center mb-5 pt-5">
+          <div class="col-md-4 mb-4">
+            <div class="p-4 border rounded shadow-sm h-100 bg-white">
+              <i
+                class="bi bi-bullseye"
+                style="color: var(--color-primario); font-size: 2rem"
+              ></i>
+              <h5 class="fw-bold mt-3">Nuestra Misión</h5>
+              <p style="color: var(--color-texto)">
+                Transformar el aprendizaje escolar en una experiencia dinámica,
+                interactiva y accesible para todos.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 border rounded shadow-sm h-100 bg-white">
+              <i
+                class="bi bi-eye"
+                style="color: var(--color-primario); font-size: 2rem"
+              ></i>
+              <h5 class="fw-bold mt-3">Nuestra Visión</h5>
+              <p style="color: var(--color-texto)">
+                Ser la plataforma líder en educación secundaria en línea en
+                Latinoamérica.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="p-4 border rounded shadow-sm h-100 bg-white">
+              <i
+                class="bi bi-heart"
+                style="color: var(--color-primario); font-size: 2rem"
+              ></i>
+              <h5 class="fw-bold mt-3">Nuestros Valores</h5>
+              <p style="color: var(--color-texto)">
+                Educación, inclusión, innovación, compromiso, empatía y
+                diversión como motor del aprendizaje.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lo que nos mueve -->
+        <section class="py-5" style="background-color: var(--color-fondo)">
+          <div class="container">
+            <h3
+              class="text-center fw-bold mb-5"
+              style="color: var(--color-primario); font-size: 2rem"
+            >
+              Lo que nos mueve
+            </h3>
+
+            <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+              <div class="col">
+                <div
+                  class="h-100 px-4 py-5 bg-white rounded shadow-sm position-relative"
+                >
+                  <div class="mb-3">
+                    <i
+                      class="bi bi-lightbulb-fill"
+                      style="font-size: 2.5rem; color: var(--color-acento)"
+                    ></i>
+                  </div>
+                  <h5
+                    class="fw-bold mb-2"
+                    style="color: var(--color-secundario)"
+                  >
+                    Creatividad
+                  </h5>
+                  <p style="color: var(--color-texto); font-size: 0.95rem">
+                    Diseñamos experiencias únicas que transforman la forma de
+                    aprender.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="h-100 px-4 py-5 bg-white rounded shadow-sm position-relative"
+                >
+                  <div class="mb-3">
+                    <i
+                      class="bi bi-check-circle-fill"
+                      style="font-size: 2.5rem; color: var(--color-acento)"
+                    ></i>
+                  </div>
+                  <h5
+                    class="fw-bold mb-2"
+                    style="color: var(--color-secundario)"
+                  >
+                    Compromiso
+                  </h5>
+                  <p style="color: var(--color-texto); font-size: 0.95rem">
+                    Nos dedicamos a que el conocimiento sea duradero y
+                    significativo.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="h-100 px-4 py-5 bg-white rounded shadow-sm position-relative"
+                >
+                  <div class="mb-3">
+                    <i
+                      class="bi bi-people-fill"
+                      style="font-size: 2.5rem; color: var(--color-acento)"
+                    ></i>
+                  </div>
+                  <h5
+                    class="fw-bold mb-2"
+                    style="color: var(--color-secundario)"
+                  >
+                    Colaboración
+                  </h5>
+                  <p style="color: var(--color-texto); font-size: 0.95rem">
+                    Creemos en el poder del trabajo en equipo y el apoyo mutuo.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="h-100 px-4 py-5 bg-white rounded shadow-sm position-relative"
+                >
+                  <div class="mb-3">
+                    <i
+                      class="bi bi-stars"
+                      style="font-size: 2.5rem; color: var(--color-acento)"
+                    ></i>
+                  </div>
+                  <h5
+                    class="fw-bold mb-2"
+                    style="color: var(--color-secundario)"
+                  >
+                    Innovación
+                  </h5>
+                  <p style="color: var(--color-texto); font-size: 0.95rem">
+                    Impulsamos nuevas formas de aprender con pasión y
+                    curiosidad.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Equipo -->
+        <div class="text-center mb-5 mt-5">
+          <h3 class="fw-bold mb-4" style="color: var(--color-secundario)">
+            Conoce a nuestro equipo
+          </h3>
+          <p class="mb-4" style="color: var(--color-texto)">
+            Un grupo apasionado por cambiar el mundo a través de la educación.
+          </p>
+          <div class="row justify-content-center">
+            <div class="col-md-3 mb-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <img
+                  src="assets/img/perfil 1.jpeg"
+                  class="card-img-top"
+                  alt="Daniela Gutierrez"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-1">Daniela Gutierrez</h5>
+                  <p class="text-muted mb-0">Co-fundadora y líder creativa</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <img
+                  src="assets/img/perfil 2.jpeg"
+                  class="card-img-top"
+                  alt="Avril Muñoz"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-1">Sthepanie Chavez</h5>
+                  <p class="text-muted mb-0">Diseñadora y estratega</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <img
+                  src="https://imgs.search.brave.com/vJcosgH894rFcBF7L_8W1iUzF1AykV_yYNF7ilEhKaM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9RX05QXzJY/XzYzNTUxNy1NTE03/ODU5MDI1Njc3MF8w/ODIwMjQtRS53ZWJw"
+                  class="card-img-top"
+                  alt="Britany Alburqueque"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-1">Britany Alburqueque</h5>
+                  <p class="text-muted mb-0">
+                    Especialista en tecnología y programación
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <img
+                  src="assets/img/perfil 3.jpeg"
+                  class="card-img-top"
+                  alt="Yadira Ipanaque"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-1">Kin Chang</h5>
+                  <p class="text-muted mb-0">Gestora de proyectos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <!-- Logo y descripción -->
+          <div class="col-md-4 mb-4">
+            <h3 style="font-weight: 700">
+              <span style="color: white">Mind</span
+              ><span style="color: var(--color-primario)">Play</span>
+            </h3>
+
+            <p class="text-white">
+              Plataforma educativa interactiva que convierte el aprendizaje en
+              una experiencia divertida y motivadora.
+            </p>
+          </div>
+
+          <!-- Enlaces rápidos -->
+          <div class="col-md-2 mb-4">
+            <h5 style="color: var(--color-fondo); font-weight: 700">
+              Enlaces rápidos
+            </h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none">Inicio</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Cursos</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Capacitaciones</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Testimonios</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Soporte -->
+          <div class="col-md-3 mb-4">
+            <h5 style="color: var(--color-fondo); font-weight: 700">Soporte</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="soporte.html#preguntas-frecuentes"
+                  class="text-white text-decoration-none"
+                  target="_blank"
+                >
+                  Preguntas frecuentes
+                </a>
+              </li>
+              <li>
+                <a
+                  href="soporte.html#terminos-condiciones"
+                  class="text-white text-decoration-none"
+                  target="_blank"
+                >
+                  Términos y condiciones
+                </a>
+              </li>
+              <li>
+                <a
+                  href="soporte.html#politica-privacidad"
+                  class="text-white text-decoration-none"
+                  target="_blank"
+                >
+                  Política de privacidad
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contacto y redes sociales -->
+          <div class="col-md-3 mb-4">
+            <h5 style="color: var(--color-fondo); font-weight: 700">
+              Contacto
+            </h5>
+            <p class="mb-2">
+              <i class="bi bi-telephone-fill me-2"></i> +51 900 000 000
+            </p>
+            <p class="mb-2">
+              <i class="bi bi-envelope-fill me-2"></i> soporte@mindplay.com
+            </p>
+            <div>
+              <a href="#" class="text-white fs-4 me-3"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="text-white fs-4 me-3"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="#" class="text-white fs-4 me-3"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" class="text-white fs-4"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-secondary" />
+
+        <div class="text-center pt-3">
+          <small class="text-white"
+            >&copy; 2025 MindPlay. Todos los derechos reservados.</small
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      fetch("navbar.html")
+        .then((res) => res.text())
+        .then((html) => {
+          document.getElementById("navbar-container").innerHTML = html;
+          verificarUsuario(); // Ejecuta lógica de sesión luego de cargar el navbar
+        });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const usuario = JSON.parse(localStorage.getItem("usuarioLogueado"));
+
+        const login = document.getElementById("navLogin");
+        const registro = document.getElementById("navRegistro");
+        const usuarioDropdown = document.getElementById("navUsuario");
+        const nombreUsuario = document.getElementById("nombreUsuario");
+
+        if (usuario) {
+          // Ocultar "Iniciar sesión" y "Registrarse"
+          login.classList.add("d-none");
+          registro.classList.add("d-none");
+
+          // Mostrar menú de usuario
+          usuarioDropdown.classList.remove("d-none");
+          nombreUsuario.textContent =
+            "Hola, " + usuario.email.split("@")[0] + " ! ";
+        }
+      });
+
+      function cerrarSesion() {
+        localStorage.removeItem("usuarioLogueado");
+        window.location.href = "index.html"; // Redirigir a inicio o login
+      }
+    </script>
+  </body>
+</html>

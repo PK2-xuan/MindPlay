@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "curso": "Matemática Básica",
+    "mensaje": "Excelente curso, me ayudó a reforzar los temas clave.",
+    "calificacion": 5,
+    "imagen": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "María",
+    "apellido": "López",
+    "curso": "Idiomas: Inglés desde cero",
+    "mensaje": "Aprendí mucho y las explicaciones fueron muy claras.",
+    "calificacion": 4,
+    "imagen": "https://randomuser.me/api/portraits/women/1.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Carlos",
+    "apellido": "García",
+    "curso": "Lenguaje y Comunicación",
+    "mensaje": "Interesante y fácil de seguir. Lo recomiendo.",
+    "calificacion": 4,
+    "imagen": "https://randomuser.me/api/portraits/men/4.jpg"
+  }
+]

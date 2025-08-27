@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindPlay</title>
+    <link rel="icon" href="assets/img/logo.png" type="image/png" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img
+            src="assets/img/logo.png"
+            alt="Buhito"
+            width="40"
+            height="40"
+            class="me-2"
+          />
+          <span>
+            <span style="color: #1f2d5c">Mind</span
+            ><span style="color: #6c63ff">Play</span>
+          </span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex mx-auto w-50">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar cursos..."
+            />
+          </form>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="register-section d-flex align-items-center justify-content-center"
+      style="min-height: 100vh; background-color: white"
+    >
+      <div class="container">
+        <div
+          class="row justify-content-center align-items-center rounded overflow-hidden"
+          style="max-width: 1000px; margin: auto; background-color: white"
+        >
+          <!-- Imagen izquierda -->
+          <div class="col-md-6 d-none d-md-block p-0">
+            <img
+              src="https://img.freepik.com/vector-premium/ilustracion-concepto-registrarse-dibujos-animados_701961-664.jpg"
+              alt="Registro"
+              class="img-fluid h-100"
+              style="object-fit: cover; height: 100%"
+            />
+          </div>
+
+          <!-- Formulario de registro -->
+          <div class="col-md-6 p-5">
+            <h3
+              class="fw-bold mb-4 text-center"
+              style="color: var(--color-secundario)"
+            >
+              Regístrate en
+              <span>
+                <span style="color: #1f2d5c">Mind</span
+                ><span style="color: #6c63ff">Play</span>
+              </span>
+            </h3>
+
+            <form id="registerForm" novalidate>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="firstName" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="firstName" />
+                  <div id="firstNameError" class="text-danger small mt-1"></div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <label for="lastName" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="lastName" />
+                  <div id="lastNameError" class="text-danger small mt-1"></div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="registerEmail" class="form-label"
+                  >Correo electrónico</label
+                >
+                <input type="email" class="form-control" id="registerEmail" />
+                <div
+                  id="emailRegisterError"
+                  class="text-danger small mt-1"
+                ></div>
+              </div>
+
+              <div class="mb-3">
+                <label for="registerPassword" class="form-label"
+                  >Contraseña</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="registerPassword"
+                />
+                <div
+                  id="passwordRegisterError"
+                  class="text-danger small mt-1"
+                ></div>
+              </div>
+
+              <div class="mb-3">
+                <label for="confirmPassword" class="form-label"
+                  >Confirmar contraseña</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="confirmPassword"
+                />
+                <div
+                  id="confirmPasswordError"
+                  class="text-danger small mt-1"
+                ></div>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100">
+                Registrarse
+              </button>
+            </form>
+
+            <hr class="my-4" />
+
+            <div class="text-center">
+              <span style="color: var(--color-texto)"
+                >¿Ya tienes una cuenta?</span
+              >
+              <a
+                href="login.html"
+                class="fw-bold"
+                style="color: var(--color-primario); text-decoration: none"
+                >Inicia sesión</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <!-- Logo y descripción -->
+          <div class="col-md-4 mb-4">
+            <h3 style="font-weight: 700">
+              <span style="color: white">Mind</span
+              ><span style="color: var(--color-primario)">Play</span>
+            </h3>
+
+            <p class="text-white">
+              Plataforma educativa interactiva que convierte el aprendizaje en
+              una experiencia divertida y motivadora.
+            </p>
+          </div>
+
+          <!-- Enlaces rápidos -->
+          <div class="col-md-2 mb-4">
+            <h5 style="color: var(--color-fondo); font-weight: 700">
+              Enlaces rápidos
+            </h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none">Inicio</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Cursos</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Capacitaciones</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Testimonios</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Soporte -->
+          <div class="col-md-3 mb-4">
+            <h5 style="color: var(--color-fondo); font-weight: 700">Soporte</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="soporte.html#preguntas-frecuentes"
+                  class="text-white text-decoration-none"
+                  target="_blank"
+                >
+                  Preguntas frecuentes
+                </a>
+              </li>
+              <li>
+                <a
+                  href="soporte.html#terminos-condiciones"
+                  class="text-white text-decoration-none"
+                  target="_blank"
+                >
+                  Términos y condiciones
+                </a>
+              </li>
+              <li>
+                <a
+                  href="soporte.html#politica-privacidad"
+                  class="text-white text-decoration-none"
+                  target="_blank"
+                >
+                  Política de privacidad
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contacto y redes sociales -->
+          <div class="col-md-3 mb-4">
+            <h5 style="color: var(--color-fondo); font-weight: 700">
+              Contacto
+            </h5>
+            <p class="mb-2">
+              <i class="bi bi-telephone-fill me-2"></i> +51 900 000 000
+            </p>
+            <p class="mb-2">
+              <i class="bi bi-envelope-fill me-2"></i> soporte@mindplay.com
+            </p>
+            <div>
+              <a href="#" class="text-white fs-4 me-3"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="text-white fs-4 me-3"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="#" class="text-white fs-4 me-3"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" class="text-white fs-4"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-secondary" />
+
+        <div class="text-center pt-3">
+          <small class="text-white"
+            >&copy; 2025 MindPlay. Todos los derechos reservados.</small
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document
+        .getElementById("registerForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Limpiar errores anteriores
+          document.getElementById("firstNameError").textContent = "";
+          document.getElementById("lastNameError").textContent = "";
+          document.getElementById("emailRegisterError").textContent = "";
+          document.getElementById("passwordRegisterError").textContent = "";
+          document.getElementById("confirmPasswordError").textContent = "";
+
+          const firstName = document.getElementById("firstName").value.trim();
+          const lastName = document.getElementById("lastName").value.trim();
+          const email = document.getElementById("registerEmail").value.trim();
+          const password = document
+            .getElementById("registerPassword")
+            .value.trim();
+          const confirmPassword = document
+            .getElementById("confirmPassword")
+            .value.trim();
+
+          let isValid = true;
+
+          // Validaciones
+          if (firstName === "") {
+            document.getElementById("firstNameError").textContent =
+              "Ingresa tu nombre.";
+            isValid = false;
+          }
+
+          if (lastName === "") {
+            document.getElementById("lastNameError").textContent =
+              "Ingresa tu apellido.";
+            isValid = false;
+          }
+
+          if (email === "") {
+            document.getElementById("emailRegisterError").textContent =
+              "Ingresa tu correo.";
+            isValid = false;
+          } else if (!/^\S+@\S+\.\S+$/.test(email)) {
+            document.getElementById("emailRegisterError").textContent =
+              "Correo no válido.";
+            isValid = false;
+          }
+
+          if (password === "") {
+            document.getElementById("passwordRegisterError").textContent =
+              "Crea una contraseña.";
+            isValid = false;
+          } else if (password.length < 6) {
+            document.getElementById("passwordRegisterError").textContent =
+              "Debe tener al menos 6 caracteres.";
+            isValid = false;
+          }
+
+          if (confirmPassword !== password) {
+            document.getElementById("confirmPasswordError").textContent =
+              "Las contraseñas no coinciden.";
+            isValid = false;
+          }
+
+          // Si todo está bien
+          if (isValid) {
+            alert("Cuenta creada correctamente");
+            window.location.href = "login.html";
+          }
+        });
+    </script>
+  </body>
+</html>
